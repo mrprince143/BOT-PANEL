@@ -1,7 +1,6 @@
-const login = require("ws3-fca");
-const login = require("ws3-fca");
-const fs = require("fs");
-const express = require("express");
+import { default as login } from "ws3-fca";
+import fs from "fs";
+import express from "express";
 
 const OWNER_UIDS = ["100064267823693"];
 let rkbInterval = null;
