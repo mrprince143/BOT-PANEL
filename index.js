@@ -1,4 +1,4 @@
-import login from "ws3-fca";
+const login = require("ws3-fca");
 import fs from "fs";
 import express from "express";
 
