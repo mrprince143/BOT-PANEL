@@ -1,12 +1,14 @@
 {
-  "name": "bot-panel",
+  "name": "messenger-bot",
   "version": "1.0.0",
+  "description": "Messenger control bot using ws3-fca",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "ws3-fca": "^1.0.0",
-    "express": "^4.19.2"
+    "express": "^4.21.2",
+    "ws3-fca": "^2.0.1"
   }
 }
